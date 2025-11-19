@@ -18,4 +18,14 @@ Laravel環境構築
   ・ユーザーログイン: http://localhost/login
   ・管理画面: http://localhost/admin
   ・phpMyAdmin: http://localhost:8080/
+  
+使用技術
+　・php8.1-fpm
+ ・laravel
+ ・jquery
+ ・MySQL8.0.26
+ ・nginx:1.21.1
+
+ 
+
 
