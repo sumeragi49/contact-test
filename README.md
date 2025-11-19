@@ -26,6 +26,5 @@ Laravel環境構築
  ・MySQL8.0.26
  ・nginx:1.21.1
 
- 
-
-
+ ER図
+ <img width="1310" height="1192" alt="スクリーンショット 2025-11-19 194510" src="https://github.com/user-attachments/assets/26d773f7-3a62-4da1-b16b-ca84e9d91cf6" />
