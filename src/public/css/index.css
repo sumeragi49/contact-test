@@ -1,0 +1,97 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__title {
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color:#a99b8f;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__container-title--item {
+    font-family: "Merriweather", serif;
+    color: #a99b8f;
+}
+
+.form__container-title--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #ffffff;
+    color: #ffcdcd;
+}
+
+.form__error {
+    height: 20px;
+    color: #ffcdcd;
+    text-align: left;
+}
+
+.form__container-item--input---name {
+    display:flex;
+}
+
+.form__container-item--input---name input{
+    margin-left: 50px;
+    padding: 10px;
+    width: 275px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f4f4f4;
+    
+    appearance: none;
+}
+
+.form__container-item--input input,
+.form__container-item--input textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f4f4f4;
+
+    appearance: none;
+}
+
+.form__container-item--input input {
+    height: 40px;
+}
+
+.form__container-item--input textarea {
+    height: 180px;
+}
+
+.form__container-item--input select {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f4f4f4;
+    float:left;
+}
+
+.form__button-confirm {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #82756b;
+    color: #ffffff;
+    cursor: pointer;
+}
