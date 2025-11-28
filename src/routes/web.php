@@ -17,7 +17,7 @@ use App\Http\Controllers\AuthController;
 |
 */
 
-Route::get('/index', [ContactController::class, 'index']);
+Route::get('/', [ContactController::class, 'index']);
 
 Route::post('/confirm', [ContactController::class, 'confirm']);
 
@@ -27,10 +27,10 @@ Route::get('/register', [RegisterController::class, 'index']);
 
 Route::post('/register', [RegisterController::class, 'store']);
 
-Route::get('/admin', [AdminController::class, 'index']);
+Route::get('/admin', [AuthController::class, 'index']);
 
 Route::get('/admin/search', [ContactController::class, 'search']);
 
 Route::middleware('auth')->group(function () {
-    Route::get('/', [AuthController::class, 'index']);
+    Route::get('/admin', [AuthController::class, 'index']);
 });
