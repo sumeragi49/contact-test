@@ -15,3 +15,4 @@ Laravel環境構築　　　・docker-compose exec php bash　　　・composer 
 使用技術   ・php8.1-fpm　・laravel　・jquery　・MySQL8.0.26　・nginx:1.21.1
 
 ER図
+<img width="1310" height="1192" alt="スクリーンショット 2025-11-19 194510" src="https://github.com/user-attachments/assets/017c94cc-0b99-42ab-ba59-6b617621b935" />
